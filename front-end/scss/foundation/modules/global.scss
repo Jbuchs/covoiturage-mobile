@@ -1,0 +1,23 @@
+/* variables globales */
+$green: #0d924b;
+$lightgreen: #bae8ca;
+$violet: #6F1E9F;
+$white: #fff;
+$black: #000;
+$opacity: 0.76;
+$mainfont: Questrial, Arial;
+
+@font-face {
+	font-family: 'Questrial';
+	src: url('../font/Questrial/Questrial-Regular.ttf');
+}
+
+/* formulaires */
+.checkbox:checked + label:before{
+	color: #f3f3f3; 
+	background-color: $white;
+	text-align: center; 
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+
+	border: 2px solid $green;
+}
