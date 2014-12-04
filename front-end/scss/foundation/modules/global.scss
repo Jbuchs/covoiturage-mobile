@@ -7,38 +7,24 @@ $black: #000;
 $opacity: 0.76;
 $mainfont: Questrial, Arial;
 
-@font-face {
-	font-family: 'Questrial';
-	src: url('../font/Questrial/Questrial-Regular.ttf');
-}
+	/* Images */ 
+	$wheel: '../img/wheel.png';
+
+	/* Police */
+	@font-face {
+		font-family: 'Questrial';
+		src: url('../font/Questrial/Questrial-Regular.ttf');
+	}
 
 /* formulaires */
 .textbox{
+	height: 25px;
+
 	background-color:$white;
 
 	border: solid 0px;
 
 
-}
-input[type=checkbox].form-checkbox {
-	position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
-}
-
-input[type=checkbox].form-checkbox {
-	padding-left:26px;
-	height:21px; 
-	display:inline-block;
-	line-height:21px;
-	background-repeat:no-repeat;
-	background-position: 0 0;
-	font-size:21px;
-	vertical-align:middle;
-	cursor:pointer;
-
-}
-
-input[type=checkbox].form-checkbox:checked {
-	background-position: 0 -21px;
 }
 
 input[type=checkbox].css-checkbox {
@@ -54,4 +40,8 @@ input[type=checkbox].css-checkbox {
 	background-image:url(../img/checkbox.png);
 
 	border:0;
+}
+
+input[type=checkbox].form-checkbox:checked {
+	
 }
