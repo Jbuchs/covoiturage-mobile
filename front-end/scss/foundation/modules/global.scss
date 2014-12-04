@@ -13,11 +13,23 @@ $mainfont: Questrial, Arial;
 }
 
 /* formulaires */
-.checkbox:checked + label:before{
-	color: #f3f3f3; 
-	background-color: $white;
-	text-align: center; 
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+input[type=checkbox].form-checkbox {
+	position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
 
-	border: 2px solid $green;
+input[type=checkbox].form-checkbox {
+	padding-left:26px;
+	height:21px; 
+	display:inline-block;
+	line-height:21px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:21px;
+	vertical-align:middle;
+	cursor:pointer;
+
+}
+
+input[type=checkbox].form-checkbox:checked {
+	background-position: 0 -21px;
 }
