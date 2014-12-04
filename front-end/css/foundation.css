@@ -6043,6 +6043,10 @@ th.hide-for-touch {
   font-family: 'Questrial';
   src: url("../font/Questrial/Questrial-Regular.ttf"); }
 /* formulaires */
+.textbox {
+  background-color: white;
+  border: solid 0px; }
+
 input[type=checkbox].form-checkbox {
   position: absolute;
   z-index: -1000;
@@ -6068,3 +6072,16 @@ input[type=checkbox].form-checkbox {
 
 input[type=checkbox].form-checkbox:checked {
   background-position: 0 -21px; }
+
+input[type=checkbox].css-checkbox {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  z-index: -1000;
+  left: -1000px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  background-image: url(../img/checkbox.png);
+  border: 0; }
