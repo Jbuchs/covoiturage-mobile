@@ -17,31 +17,26 @@ $mainfont: Questrial, Arial;
 	}
 
 body{
-	background-image:url("../img/photoFond.jpg");
+	background-image:url("../img/fondLavaud2.jpg");
 	background-repeat: repeat-x;
 	background-attachment: fixed;
+	height: 100%;
 
 	color:$white;
 	font-family: $mainfont;
+
+  
 }
 
 .row-bottom{
 	position:absolute;
 	bottom:0px;
 }
-.row.row-menu{
-	position: absolute;
-	bottom:20%;
-}
-.row.row-menu1 {
-	position: absolute;
-	bottom: 46.6%;
+
+.image-opacity{
+	opacity: 0.85;
 }
 
-.row.row-menu2 {
-	position: absolute;
-	bottom: 12.9%;
-}
 
 /* formulaires */
 input.textbox{
@@ -88,7 +83,7 @@ input[type=checkbox].formcheckbox:checked + label.css-label {
 
 /* paddings */
 .padd-bottom-medium{
-	padding-bottom: 100px;
+	padding-bottom: 60%;
 }
 
 
