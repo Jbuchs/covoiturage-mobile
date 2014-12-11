@@ -1,0 +1,110 @@
+.btn-menu{
+	width:76px;
+	height:59px;
+	
+
+	background-image: url("../img/boutonMenu.png");
+}
+
+.logo{
+	width:235px;
+	height:76px;
+
+	background-image: url("../img/covoiturageLogo.png");
+	background-repeat: no-repeat;
+}
+.btn-conducteur{
+
+
+      
+}
+.btn-mes-trajets-left{
+	background-image: url("../img/leftTriangle.png");
+	height:45px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.btn-mes-trajets{
+
+	height:45px;
+	background:$green;
+
+	.text-btn-bottom{
+		width:100%;
+
+		padding-top: 8px;
+		text-align: center;
+	}
+}
+
+.btn-mes-trajets-right{
+	background-image: url("../img/rightTriangle.png");
+	height:45px;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.btn-conducteur-top{
+	width:45px;
+	height:45px;
+	background-image: url("../img/rightTriangle.png");
+	background-repeat: no-repeat;
+	background-position:bottom-left;
+}
+
+.btn-conducteur{
+	width:45px;
+	height:170px;
+	background:$green;
+
+	.text-btn-conducteur{
+		line-height: 100px;
+		transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+
+	}
+}
+.btn-conducteur-bottom{
+	width:45px;
+	height:45px;
+	background-image: url("../img/bottomLeftTriangle.png");
+	background-repeat: no-repeat;
+	background-position:top-left;
+}
+
+.btn-passager-top{
+	width:45px;
+	height:45px;
+	background-image: url("../img/leftTriangle.png");
+	background-repeat: no-repeat;
+	background-position:right;
+}
+
+.btn-passager{
+	width:45px;
+	height:170px;
+	background:$green;
+
+	.text-btn-passager{
+		
+		line-height: 200px;
+		transform: rotate(270deg);
+		-webkit-transform: rotate(270deg);
+		-moz-transform: rotate(270deg);
+		-o-transform: rotate(270deg);
+
+	}
+}
+
+.btn-passager-bottom{
+	width:45px;
+	height:45px;
+	background-image: url("../img/bottomRightTriangle.png");
+	background-repeat: no-repeat;
+	background-position:right;
+}
+
+
