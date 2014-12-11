@@ -17,12 +17,24 @@ $mainfont: Questrial, Arial;
 	}
 
 body{
-	background-image:url("../img/photoFond.jpg");
+	background-image:url("../img/fondLavaud2.jpg");
 	background-repeat: repeat-x;
 	background-attachment: fixed;
+	height: 100%;
 
 	color:$white;
 	font-family: $mainfont;
+
+  
+}
+
+.row-bottom{
+	position:absolute;
+	bottom:0px;
+}
+
+.image-opacity{
+	opacity: 0.85;
 }
 
 
@@ -71,7 +83,7 @@ input[type=checkbox].formcheckbox:checked + label.css-label {
 
 /* paddings */
 .padd-bottom-medium{
-	padding-bottom: 100px;
+	padding-bottom: 60%;
 }
 
 
