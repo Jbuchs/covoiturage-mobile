@@ -25,6 +25,23 @@ body{
 	font-family: $mainfont;
 }
 
+.row-bottom{
+	position:absolute;
+	bottom:0px;
+}
+.row.row-menu{
+	position: absolute;
+	bottom:20%;
+}
+.row.row-menu1 {
+	position: absolute;
+	bottom: 46.6%;
+}
+
+.row.row-menu2 {
+	position: absolute;
+	bottom: 12.9%;
+}
 
 /* formulaires */
 input.textbox{
