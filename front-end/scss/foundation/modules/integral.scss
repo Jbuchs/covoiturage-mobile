@@ -121,11 +121,18 @@ input[type=checkbox].formcheckbox:checked + label.css-label {
 .btn-retour{
 	width:59px;
 	height:59px;
+	padding:0px;
 	
 	background-image: url("../img/backLeft.png");
 
 	background-repeat: no-repeat;
 	cursor: pointer;
+
+	.back {
+		width: 85%;
+		height: 85%;
+	}
+	
 }
 
 
