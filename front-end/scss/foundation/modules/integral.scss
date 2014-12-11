@@ -16,6 +16,16 @@ $mainfont: Questrial, Arial;
 		src: url('../font/Questrial/Questrial-Regular.ttf');
 	}
 
+body{
+	background-image:url("../img/photoFond.jpg");
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+
+	color:$white;
+	font-family: $mainfont;
+}
+
+
 /* formulaires */
 input.textbox{
 	height: 25px;
@@ -63,6 +73,10 @@ input[type=checkbox].formcheckbox:checked + label.css-label {
 .padd-bottom-medium{
 	padding-bottom: 100px;
 }
+
+
+
+
 
 
 /* Test */

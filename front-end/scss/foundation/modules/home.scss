@@ -2,10 +2,10 @@
 	width:76px;
 	height:59px;
 	
-
 	background-image: url("../img/boutonMenu.png");
-}
 
+	cursor: pointer;
+}
 .logo{
 	width:235px;
 	height:76px;
@@ -13,22 +13,23 @@
 	background-image: url("../img/covoiturageLogo.png");
 	background-repeat: no-repeat;
 }
-.btn-conducteur{
 
-
-      
-}
 .btn-mes-trajets-left{
-	background-image: url("../img/leftTriangle.png");
 	height:45px;
+
+	background-image: url("../img/leftTriangle.png");
 	background-repeat: no-repeat;
 	background-position: right;
+
+	cursor: pointer;
 }
 
 .btn-mes-trajets{
 
 	height:45px;
-	background:$green;
+	background-color:$green;
+
+	cursor: pointer;
 
 	.text-btn-bottom{
 		width:100%;
@@ -39,24 +40,33 @@
 }
 
 .btn-mes-trajets-right{
-	background-image: url("../img/rightTriangle.png");
 	height:45px;
+	background-image: url("../img/rightTriangle.png");
 	background-repeat: no-repeat;
 	background-position: left;
+
+	cursor: pointer;
 }
 
 .btn-conducteur-top{
 	width:45px;
 	height:45px;
+
 	background-image: url("../img/rightTriangle.png");
 	background-repeat: no-repeat;
 	background-position:bottom-left;
+
+	cursor: pointer;
 }
 
 .btn-conducteur{
 	width:45px;
 	height:170px;
-	background:$green;
+
+	background-color:$green;
+
+	cursor: pointer;
+
 
 	.text-btn-conducteur{
 		line-height: 100px;
@@ -70,23 +80,32 @@
 .btn-conducteur-bottom{
 	width:45px;
 	height:45px;
+
 	background-image: url("../img/bottomLeftTriangle.png");
 	background-repeat: no-repeat;
 	background-position:top-left;
+
+	cursor: pointer;
 }
 
 .btn-passager-top{
 	width:45px;
 	height:45px;
+
 	background-image: url("../img/leftTriangle.png");
 	background-repeat: no-repeat;
 	background-position:right;
+
+	cursor: pointer;
 }
 
 .btn-passager{
 	width:45px;
 	height:170px;
-	background:$green;
+
+	background-color:$green;
+
+	cursor: pointer;
 
 	.text-btn-passager{
 		
@@ -102,9 +121,12 @@
 .btn-passager-bottom{
 	width:45px;
 	height:45px;
+
 	background-image: url("../img/bottomRightTriangle.png");
 	background-repeat: no-repeat;
 	background-position:right;
+
+	cursor: pointer;
 }
 
 
