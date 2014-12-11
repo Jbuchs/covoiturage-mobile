@@ -28,6 +28,10 @@ body{
   
 }
 
+a{
+	color:$white;
+}
+
 .row-bottom{
 	position:absolute;
 	bottom:0px;
@@ -35,6 +39,31 @@ body{
 
 .image-opacity{
 	opacity: 0.85;
+}
+
+.page-title{
+	text-align: center;
+	
+	h2{
+		font-size: 240%;
+		
+		color:$white;
+		font-family: $mainfont;
+		margin-top: 18px;
+	}
+}
+
+.main-content{
+	background-color: $white;
+	width:95%;
+	padding:8px;
+	margin-bottom: 10px;
+
+	opacity: 0.75;
+	p{
+		opacity: 1;
+		color:$black;
+	}
 }
 
 
@@ -87,7 +116,17 @@ input[type=checkbox].formcheckbox:checked + label.css-label {
 }
 
 
+/* Boutons */
 
+.btn-retour{
+	width:59px;
+	height:59px;
+	
+	background-image: url("../img/backLeft.png");
+
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
 
 
 
